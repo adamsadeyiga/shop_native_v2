@@ -26,9 +26,9 @@ body {
 }
 
 .logo {
-    width: 140px; /* Adjust as needed */
+    width: 100px; /* Adjust as needed */
     margin-bottom: 20px;
-    margin-left: 60px;
+    margin-left: 0px;
 }
 
 form {
