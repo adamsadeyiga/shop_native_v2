@@ -88,12 +88,29 @@ body {
   align-items: center;
   justify-content: space-between;
   background: #e3e6f3;
-  padding: 20px 80px;
+  padding: 10px 80px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
   z-index: 999;
   position: sticky;
   top: 0;
   left: 0;
+}
+
+.logo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo span {
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 1.7rem;
+  padding-left: 10px;
+}
+
+.logo_img {
+  padding-left: 0px;
 }
 
 #navbar {
@@ -145,11 +162,11 @@ body {
 /* Home Page */
 
 #hero {
-  background-image: url("./img/hero4.png");
+  background-image: url("./img/banner/b4.jpg");
   height: 90vh;
   width: 100%;
   background-size: cover;
-  background-position: top 25% right 0;
+  background-position: top 45% right 0;
   padding: 0 80px;
   display: flex;
   flex-direction: column;
